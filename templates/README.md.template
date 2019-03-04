@@ -1,0 +1,14 @@
+# docker-pgadmin
+
+* Pgadmin ${PGADMIN_VERSION} on Apline with container utils and tweaks.
+
+## Versions
+- Alpine linux
+- Pgadmin ${PGADMIN_VERSION}
+
+## Usage
+
+`docker run --rm -it -p 7091:80 -e PGADMIN_DEFAULT_EMAIL=admin@admin.com -e PGADMIN_DEFAULT_PASSWORD=admin chrisgarrett/pgadmin:${VERSION}`
+
+
+## Credits
